@@ -1,6 +1,6 @@
 
 // You should implement your task here.
-
+//my solution: we take each element of matrix and if the element order in matrix is even iterate from the end to the beginning and push each element to the output. Otherwise iterate from the start and push each element to the output.
 module.exports = function towelSort(matrix) {
     let output = [];
     if (matrix && matrix.length > 0) {
